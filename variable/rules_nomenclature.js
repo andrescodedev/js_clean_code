@@ -3,6 +3,7 @@
 
     - Names of variables must be pronounceable and expressives
     - Names without technique information
+    - Use ubiquitous language
     - camelCase structure
 */
 
@@ -21,3 +22,13 @@ let arrayNames = ['Lora','Lore'];
 
 // RECOMMENDED
 let namesList = ['lora','lore'];
+
+
+//USE UBIQUITOUS LANGUAGE
+//NOT RECOMMENDED
+getUserInfo();
+getClientData();
+getCustomerRecord();
+
+//RECOMMENDED
+getUser();
