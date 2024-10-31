@@ -32,3 +32,35 @@ getCustomerRecord();
 
 //RECOMMENDED
 getUser();
+
+
+/* 
+    HOW TO NAME ACCORDING TO DATA TYPE
+*/
+
+//In ARRAYS - RECOMMENDED
+let usersNames = ['lora','lore'];
+
+//IN BOOLEANS - RECOMMENDED (is, has, can)
+let isValid = true;
+let canWrite = false;
+let hasColor = true;
+
+//IN NUMBERS - RECOMMENDED (max, min, total)
+let maxUsers = 50;
+let minUsers = 10;
+let totalUsers = 20;
+
+//IN FUNCTIONS OR METHODS - RECOMMENDED (verb(action) + noun(it on apply the action) = getUser)
+createUser();
+updateUser();
+sendEmail();
+getUser();
+setUser();
+isValidUser();
+
+//IN CLASSES - RECOMMENDED
+class User{}
+class UserProfile{}
+class Account{}
+
